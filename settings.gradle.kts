@@ -1,0 +1,1 @@
+rootProject.name = "com.raghav.ktor-sample"
