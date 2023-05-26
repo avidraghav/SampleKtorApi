@@ -11,7 +11,6 @@ import io.ktor.server.netty.Netty
 import java.io.File
 
 fun main(args: Array<String>): Unit {
-//    io.ktor.server.netty.EngineMain.main(args)
     val keyStoreFile = File("build/keystore.jks")
     val keyStore = buildKeyStore {
         certificate("sampleAlias") {
