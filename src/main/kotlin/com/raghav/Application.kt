@@ -21,7 +21,7 @@ fun main(args: Array<String>): Unit {
     keyStore.saveToFile(keyStoreFile, "123456")
     val environment = applicationEngineEnvironment {
         connector {
-            port = 8080
+            port = 80
         }
         sslConnector(
             keyStore = keyStore,
